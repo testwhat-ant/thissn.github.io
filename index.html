@@ -1,8 +1,9 @@
 <h1><p  align="center">欢迎来未知的新世界</p></h1>
 <p  align="center">很高兴能认识你！</p>
+
 <form name="input" action="html_form_action.php" method="get">
-姓名: <input type="text" name="user">
-<input type="submit" value="Submit">
+	姓名: <input type="text" name="user" id="textId">
+	<input type="submit" value="Submit">
 </form>
 <p id="demo">
 JavaScript 可以触发事件，就像按钮点击。</p>
@@ -10,7 +11,7 @@ JavaScript 可以触发事件，就像按钮点击。</p>
 <script>
 	function myFunction()
 	{
-		document.getElementById("demo").innerHTML="{html_form_action.php}";
+		document.getElementById("textId").value;
 	}
 </script>
 
