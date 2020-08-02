@@ -5,14 +5,40 @@
 	姓名: <input type="text" name="user" id="textId">
 	<input type="submit" value="Submit">
 </form>
-<p id="demo">
-JavaScript 可以触发事件，就像按钮点击。</p>
+<p id="demo"> </p>
 
 <script>
 	function myFunction()
 	{
 		document.getElementById("textId").value;
+		document.getElementById("demo").
 	}
 </script>
 
 <button type="button" onclick="myFunction()">点我</button>
+
+<script>
+function checkForm()
+{
+	alert("提交表单");
+}
+</script>
+</head>
+<body>
+
+<form action="demo_form.php" onsubmit="checkForm()">
+第一个名字: <input type="text" name="fname"><br>
+最后一个名字: <input type="text" name="lname"><br>
+<input type="submit" value="提交">
+</form>
+	
+<form action="MAILTO:1472532225@qq.com" method="post" enctype="text/plain">
+Name:<br>
+<input type="text" name="name" value="your name"><br>
+E-mail:<br>
+<input type="text" name="mail" value="your email"><br>
+Comment:<br>
+<input type="text" name="comment" value="your comment" size="50"><br><br>
+<input type="submit" value="发送">
+<input type="reset" value="重置">
+</form>
