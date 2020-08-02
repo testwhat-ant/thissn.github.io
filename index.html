@@ -1,61 +1,17 @@
-<h1><p  align="center">欢迎来到我的世界</p></h1>
+<h1><p  align="center">欢迎来未知的新世界</p></h1>
 <p  align="center">很高兴能认识你！</p>
-<ul>
-	<li><a href="http://www.world68.com">首页</a></li>											
-        <li><a href="http://www.world68.com/country.asp">国家分类</a></li>			
-        <li><a href="http://www.world68.com/top.asp?t=5star">全球名站</a></li>
-        <li><a href="http://www.world68.com/shopping.asp">购物名站</a></li>				
-        <li><a href="http://haitao.world68.com" target="_blank">海淘网站</a></li>
-</ul>
+<form name="input" action="html_form_action.php" method="get">
+Username: <input type="text" name="user">
+<input type="submit" value="Submit">
+</form>
+<p id="demo">
+JavaScript 可以触发事件，就像按钮点击。</p>
 
-<dl>
-                <dt>亚洲</dt>
-                <dd><a href="http://www.world68.com/sort.asp?bid=20">中国</a>&nbsp &nbsp &nbsp<a href="http://www.world68.com/sort.asp?bid=3">日本</a>&nbsp &nbsp &nbsp<a href="http://www.world68.com/sort.asp?bid=4">韩国</a></dd>
-               
-                <dd><a href="http://www.world68.com/sort.asp?bid=8">印度</a>&nbsp &nbsp &nbsp<a href="http://www.world68.com/sort.asp?bid=66">泰国</a>&nbsp &nbsp &nbsp<a href="http://www.world68.com/sort.asp?bid=9">新加坡</a></dd>
-               
-                <dd><a href="http://www.world68.com/sort.asp?bid=29">菲律宾</a>&nbsp &nbsp &nbsp<a href="http://www.world68.com/sort.asp?bid=19">马来西亚</a></dd>
-               
-                </dl>
-                <dl>
-                <dt>欧洲</dt>
-                <dd><a href="http://www.world68.com/sort.asp?bid=6">英国</a></dd>
-                <dd><a href="http://www.world68.com/sort.asp?bid=7">法国</a></dd>
-                <dd><a href="http://www.world68.com/sort.asp?bid=11">德国</a></dd>
-                <dd><a href="http://www.world68.com/sort.asp?bid=23">瑞典</a></dd>
-                <dd><a href="http://www.world68.com/sort.asp?bid=15">意大利</a></dd>
-                <dd><a href="http://www.world68.com/sort.asp?bid=18">西班牙</a></dd>
-                <dd><a href="http://www.world68.com/sort.asp?bid=36">瑞士</a></dd>
-                <dd><a href="http://www.world68.com/sort.asp?bid=69">希腊</a></dd>
-                <dd><a href="http://www.world68.com/sort.asp?bid=25">荷兰</a></dd>
-                </dl>
-                <dl>
-                <dt>美洲</dt>
-                <dd><a href="http://www.world68.com/sort.asp?bid=5">美国</a></dd>
-                <dd><a href="http://www.world68.com/sort.asp?bid=16">加拿大</a></dd>
-                <dd><a href="http://www.world68.com/sort.asp?bid=70">墨西哥</a></dd>
-                <dd><a href="http://www.world68.com/sort.asp?bid=49">阿根廷</a></dd>
-                <dd><a href="http://www.world68.com/sort.asp?bid=22">巴西</a></dd>
-                <dd><a href="http://www.world68.com/sort.asp?bid=73">智利</a></dd>
-                <dd><a href="http://www.world68.com/sort.asp?bid=93">哥斯达黎加</a></dd>
-                </dl>
-                <dl>
-                <dt>非洲</dt>
-                <dd><a href="http://www.world68.com/sort.asp?bid=35">南非</a></dd>
-                <dd><a href="http://www.world68.com/sort.asp?bid=60">埃及</a></dd>
-                <dd><a href="http://www.world68.com/sort.asp?bid=63">尼日利亚</a></dd>
-                <dd><a href="http://www.world68.com/sort.asp?bid=65">坦桑尼亚</a></dd>
-                <dd><a href="http://www.world68.com/sort.asp?bid=72">肯尼亚</a></dd>
-                <dd><a href="http://www.world68.com/sort.asp?bid=121">摩洛哥</a></dd>
-                <dd><a href="http://www.world68.com/sort.asp?bid=156">加纳</a></dd>
-                </dl>
-                <dl>
-                <dt>大洋洲</dt>
-                <dd><a href="http://www.world68.com/sort.asp?bid=10">澳大利亚</a></dd>
-                <dd><a href="http://www.world68.com/sort.asp?bid=21">新西兰</a></dd>
-                <dd><a href="http://www.world68.com/sort.asp?bid=32">斐济</a></dd>
-                <dd><a href="http://www.world68.com/sort.asp?bid=130">帕劳</a></dd>
-                <dd><a href="http://www.world68.com/sort.asp?bid=127">瑙鲁</a></dd>
-                <dd><a href="http://www.world68.com/sort.asp?bid=33">汤加</a></dd>
-                <dd><a href="http://www.world68.com/sort.asp?bid=124">瓦努阿图</a></dd>
-                </dl>
+<script>
+function myFunction()
+{
+	document.getElementById("demo").innerHTML="Hello JavaScript!";
+}
+</script>
+
+<button type="button" onclick="myFunction()">点我</button>
